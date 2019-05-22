@@ -1,0 +1,22 @@
+Classes: 
+Entrada (dados); 
+Saída(dados); 
+Tabela Verdade; 
+Vizinhança; 
+Circuito_Entradas; 
+Mapa de cobertura; 
+(Controladores não incluídos)
+(Mais classes a serem adicionadas)
+(Nome de classes podem e devem ser alterados)
+
+Passo a Passo:
+1- O usuário faz entrada da tabela verdade(manual ou arquivo ou os dois ?).
+2- O programa então deverá organizar a tabela verdade em uma estrutura para armazenar os dados.
+3- Em seguida deverá ser feito o reconhecimento da vizinhança 
+4- Após todas as vizinhanças devidamente realizadas o algoritmo montara o mapa de cobertura
+5- Então será feito a escolha dos implicantes primos essenciais (seguindo as regras do QUINE) (Tratar erro: sem prioridades)
+6- O programa então deverá entregar ao usuário a fórmula do circuito (tela ou arquivo) (extra: desenhar o circuito).
+
+Ideias:
+1- Salvar a tabela verdade em duas estruturas: uma matriz (as entradas e seus binários); um vetor (nível lógico)
+
